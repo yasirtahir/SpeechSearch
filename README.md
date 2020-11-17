@@ -1,4 +1,4 @@
-![Search nearby Restaurants using ASR ML Kit, Site Kit and Map Kit](https://communityfile-dre.op.hicloud.com/FileServer/getFile/cmtybbs/003/128/487/2640966000003128487.20201117125755.70108487613318357899332351140063:20201117191103:2800:22D0DCB35ACD39964BB731C199E5078E1A7DB76AF474B0D36EB4B78A893216B0.jpg "Search nearby Restaurants using ASR ML Kit, Site Kit and Map Kit")
+![Search nearby Restaurants using ASR ML Kit, Site Kit and Map Kit](https://github.com/yasirtahir/SpeechSearch/raw/main/images/image1.jpg "Search nearby Restaurants using ASR ML Kit, Site Kit and Map Kit")
 
   
 
@@ -50,7 +50,7 @@ Using ML Kit, developers can develop different android applications with ASR sea
 
   
 
-![Demo](https://communityfile-dre.op.hicloud.com/FileServer/getFile/cmtybbs/003/128/487/2640966000003128487.20201117135845.58281168978690227851609513881398:20201117191103:2800:69EB41D34262F88638F38245184BFE2BE1A550FC6EACD67ACE0B99B88B099BE4.gif "Demo")
+![Demo](https://github.com/yasirtahir/SpeechSearch/raw/main/images/demo.gif "Demo")
 
   
 
