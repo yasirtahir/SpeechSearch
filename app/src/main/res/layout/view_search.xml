@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorAccent">
+
+    <RelativeLayout
+        android:id="@+id/searchClosedView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_toStartOf="@id/btnOpenSearch"
+            android:text="@string/app_name" />
+
+        <Button
+            android:id="@+id/btnOpenSearch"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_search" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/searchOpenedView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:background="@drawable/rounded_corner_background"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btnCloseSearch"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/ic_close" />
+
+        <EditText
+            android:id="@+id/editTextSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:hint="@string/search_hint"
+            android:layout_toStartOf="@id/btnVoiceSearch"
+            android:layout_toEndOf="@id/btnCloseSearch" />
+
+        <Button
+            android:id="@+id/btnVoiceSearch"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/btnSendSearch"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_microphone" />
+
+        <Button
+            android:id="@+id/btnSendSearch"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_send" />
+
+    </RelativeLayout>
+
+</FrameLayout>

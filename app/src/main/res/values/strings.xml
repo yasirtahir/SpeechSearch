@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Restaurants Speech Search</string>
+    <string name="search_hint">Search nearby Restaurants</string>
+    <string name="permission_request">Please enable all the required permissions in order to use all features of the application</string>
+    <string name="app_permissions">The app need these requested permissions in order to work properly. Please note that the application will not work properly until you allow the requested permissions</string>
+
+</resources>
